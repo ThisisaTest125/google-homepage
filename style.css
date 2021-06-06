@@ -1,29 +1,112 @@
+header {
+    width: auto;
+    height: 100px;
+   /* background-color: grey;*/
+    position: relative;
+}
+
+body {
+    /*background-color: yellowgreen;*/
+    height: auto;
+    width: auto;
+    position: relative;
+    
+    
+}
 
 #googlelogo {
+   
     display: block;
-    margin: auto;
-    padding-top: 13%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    
+  
+
+    
     
 }
 
 #site-search {
+    position: absolute;
     display: block;
-    margin: auto;
-    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    left: 37.8%;
+    width: 470px;
+    height: 10%;
+    
+    
+    
+    
+    
     
 }
 
-.button {
+.button1 {
     background-color: rgb(245, 245, 245);
     flex: auto;
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    left: 44%;
+    width: 6%;
+    height: 10%;
 }
 
-.headerlink {
+.button2 {
+    background-color: rgb(245, 245, 245);
+    flex: auto;
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    left: 51%;
+    width: 6%;
+    height: 10%;
+}
+
+.headerlink1 {
     text-decoration: none;
+    position: absolute;
+    top: 11%;
+    left: 1%;
+    font-size: small;
+    color: black;
+
     
 }
 
-.headerlink:hover {
+.headerlink2 {
+    text-decoration: none;
+    position: absolute;
+    top: 11%;
+    left: 6%;
+    font-size: small;
+    color: black;
+}
+.headerlink3 {
+    text-decoration: none;
+    position: absolute;
+    top: 11%;
+    right: 12%;
+    font-size: small;
+    color: black;
+}
+.headerlink4 {
+    text-decoration: none;
+    position: absolute;
+    top: 11%;
+    right: 9%;
+    font-size: small;
+    color: black;
+    
+}
+.headerlink1:hover, .headerlink2:hover, .headerlink3:hover, .headerlink4:hover {
     text-decoration: underline;
 }
 
