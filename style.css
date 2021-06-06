@@ -9,5 +9,21 @@
 #site-search {
     display: block;
     margin: auto;
+    margin-top: 4%;
     
 }
+
+.button {
+    background-color: rgb(245, 245, 245);
+    flex: auto;
+}
+
+.headerlink {
+    text-decoration: none;
+    
+}
+
+.headerlink:hover {
+    text-decoration: underline;
+}
+
