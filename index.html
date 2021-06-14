@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>google-homepage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<title>My first Project</title>
-<header>
-    <div><a href="" class="headerlink1">Über Google</a></div>
-    <div><a href="" class="headerlink2">Store</a></div>
-    <div><a href="" class="headerlink3">Gmail</a></div>
-    <div><a href="" class="headerlink4">Bilder</a></div>
-</header>
-
 <body>
-    <div><img id="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-            alt="GoogleLogo"></div>
-    <div><input type="search" id="site-search" aria-label="Search through site content"
-            placeholder="Type here to search">
-            
+    <nav class="nav1">
+        <ul class="navtop">
+            <li><a href="">Über Google</a></li>
+            <li><a href="">Store</a></li>
+            <button class="loginbutton" , class="navright">Anmelden</button>
+            <img class="navicon" src="images/outline_apps_black_24dp.png" alt="google-apps-icon">
+            <li class="navright"><a href="">Bilder</a></li>
+            <li class="navright"><a href="">Gmail</a></li>
+        </ul>
+    </nav>
+    <div class="logo">
+        <img class="loggo" src="https://www.google.de/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            alt="google-logo">
     </div>
-    <div><button type="button" class="button1">Google Suche</button></div>
-    <div><button type="button" class="button2">Auf gut Glück!</button> </div>
+    <div class="searchbar">
+        <input class="searchinput" type="text" placeholder="">
+    </div>
+    <div class="buttons"><button>Google Suche</button>
+        <button>Auf gut Glück!</button>
+    </div>
+    <div class="deutschland">
+        <p>Deutschland</p>
+    </div>
+    <footer>
+        <div class="bottomleft">
+            <a class="a2" href="">Werbeprogramme</a>
+            <a class="a2" href="">Unternehmen</a>
+            <a class="a2" href="">Wie funktioniert die Google Suche?</a>
+        </div>
+        <div class="bottomcenter">
+            <img class="leaf" src="images/leaf.png" alt="leaf">
+            <a class="a2" href="">CO2-neutral seit 2007</a>
+        </div>
+        <div class="bottomright">
+            <a class="a2" href="">Datenschutzerklärung</a>
+            <a class="a2" href="">Nutungsbedingungen</a>
+            <a class="a2" href="">Einstellungen</a>
+        </div>
+    </footer>
 </body>
-<footer></footer>
-
 </html>
