@@ -1,1 +1,1 @@
-This is the first Project of the OdinProject. It is the Google Search Page, non responsive.
+This is the first Project of the OdinProject. It is the Google-Homepage made with HTML/CSS, non functional
